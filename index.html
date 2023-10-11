@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Slot Booking</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="./scripts.js"></script>
+</head>
+
+<body class="index-body">
+  
+
+  <nav class="navbar navbar-expand-md navbar-dark mb-3">
+     <!-- <img class="img" src="images/MET_April_5.jpg" />  -->
+    <a href="#" class="navbar-brand mr-3">Slot Booking</a>
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ml-auto">
+        <!-- <a href="#" id="data" class="nav-item nav-link">###</a> -->
+      </div>
+    </div>
+  </nav>
+
+
+
+  <h1>Select a Prefered time slot</h1>
+
+
+  <div class="container">
+    <div class="row">
+      <p>Date: <input type="date" id="datepicker" placeholder="Select Date Here"></p>
+    </div>
+
+    <div div class="row" >
+      
+      
+      <!-- <button id="mybtn" onclick="darkmode()">Dark</button> -->
+
+
+      <!-- <a href="/form.html"> -->
+      <!-- <button class="toogle" id="btnOne">09:00 am - 10:00 am</button> -->
+      <button class="button-on" id="btnOne" onclick="slotBook('btnOne')">09:00 am - 10:00 am</button>
+      <button class="button-on" id="btnTwo" onclick="slotBook('btnTwo')">10:00 am - 11:00 am</button>
+      <button class="button-on" id="btnThree" onclick="slotBook('btnThree')">11:00 am - 12:00 pm</button>
+      <button class="button-on" id="btnFour" onclick="slotBook('btnFour')">12:00 pm - 01:00 pm</button>
+      <button class="button-on" id="btnFive" onclick="slotBook('btnFive')">01:00 pm - 02:00 pm</button>
+      <button class="button-on" id="btnSix" onclick="slotBook('btnSix')">02:00 pm - 03:00 pm</button>
+      <button class="button-on" id="btnSeven" onclick="slotBook('btnSeven')">03:00 pm - 04:00 pm</button>
+      <button class="button-on" id="btnEight" onclick="slotBook('btnEight')">04:00 pm - 05:00 pm</button>
+      <button class="button-on" id="btnNine" onclick="slotBook('btnNine')">05:00 pm - 06:00 pm</button>
+      
+
+    </div> 
+
+    <a href="/form.html">
+      <button class="button">Confirm</button>
+    </a>
+
+  </div>
+
+</div>
+</body>
+</html>
